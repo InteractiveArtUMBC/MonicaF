@@ -2,7 +2,8 @@ function setup (){
         createCanvas(500,500);
         background (0,255,250);
 }
-
+//i think one change that you could work on in this sketch is try to draw all of the objects with only using one set of drawing objects
+//For example, rework this so you only have one rect() one line() one ellipse() etc.
 function draw(){
     stroke(0);
     rect(50,50,50,50);
